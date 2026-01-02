@@ -13,7 +13,19 @@ return(
     </div>
 )
 
+// another way of using props in components 
 
+function Information({name,place_of_birth,profession}){
+    return(
+        <>
+        <div className="info-card">
+       <h1>Name:{name}</h1>
+       <h1>Place of origin:{place_of_birth} </h1>
+       <h1>Kaam kya karta hai: {profession}</h1>
+        </div>
+        </>
+    )
+}
 
 
 
