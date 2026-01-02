@@ -1,4 +1,6 @@
 import './Movie-card.css'
+import PropTypes from 'prop-types'
+
 //component banaya hai Moviecard.jsx mein jisme props use kiye hai
 function Moviecard(props)
 {
@@ -10,6 +12,14 @@ return(
     <h1>Duration:{props.duration}</h1>
     </div>
 )
+
+
+
+
+
+
+
+
 Moviecard.propTypes={
     name:PropTypes.string.isRequired,   
     release_date:PropTypes.number.isRequired,
