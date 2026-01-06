@@ -26,6 +26,8 @@ function FavouriteColor(){
     return(
         <>
         <h1 style={{color:color}}>The current color is {color}</h1>
+        <button onClick={()=>setColor("blue")}>Blue</button>
+        <button onClick={()=>setColor("red")}>Red</button>
         </>
     )
 }
