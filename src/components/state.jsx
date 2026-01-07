@@ -46,8 +46,8 @@ export function Counter(){
     return(
         <>
         <h1>The current count is {count}</h1>
-        <button onClick={increment}>Click to count</button>
-        <button onClick={()=>setCount(prev =>prev+3)}>Click to increase by +3</button>
+         <button onClick={() =>{increment();}}>+1</button>
+         <button onClick={()=>{increment();increment();increment()}}>Click to increase by 3</button>
         </>
     )
 }
