@@ -2,6 +2,9 @@
 // Each input has a change handler that calls setForm with the next state of the entire form. 
 // The { ...form } spread syntax ensures that the state object is replaced rather than mutated.
 
+//In this example, the form state variable holds an object. 
+// Each input has a change handler that calls setForm with the next state of the entire form. 
+// The { ...form } spread syntax ensures that the state object is replaced rather than mutated.
 
 
 import './a_s.css'
